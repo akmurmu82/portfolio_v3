@@ -20,7 +20,7 @@ function Navbar() {
 
   function Navlink({ title, to }) {
     return (
-      <Link className="lato-normal" style={styles} to={to}>
+      <Link style={styles} to={to}>
         {title}
       </Link>
     );
@@ -38,11 +38,11 @@ function Navbar() {
   }
 
   const navlinks = [
-    { title: "Home", to: "#home" },
-    { title: "About", to: "#about" },
-    { title: "Skills", to: "#skills" },
-    { title: "Projects", to: "#projects" },
-    { title: "Contact", to: "#contact" },
+    { title: "Home", to: "/#home" },
+    { title: "About", to: "/#about" },
+    { title: "Skills", to: "/#skills" },
+    { title: "Projects", to: "/#projects" },
+    { title: "Contact", to: "/#contact" },
   ];
 
   return (
